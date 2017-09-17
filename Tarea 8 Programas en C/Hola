@@ -1,0 +1,12 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+// Este programa imprime hola diez veces, junto con su numeración.
+
+int main(int argc, char** argv) {
+	
+	int j=0;
+	for(j=1;j<=10;j=j+1)
+	printf("Hola %d \n",j);
+	return 0;
+}
