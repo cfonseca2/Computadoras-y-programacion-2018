@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	int j=0;
+	int k=0;
+	for(j=1;j<=6;j=j+1){
+		for(k=1;k<=6;k=k+1){
+		if ((k>1 && j!=1) && (k<6 && j!=6))	{
+			printf(" ");
+			}else{
+				printf("+");}
+			
+		}
+		printf("\n");
+	
+	}
+	
+	return 0;
+}
